@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "op_gear",
+  "version": "${version}",
+  "name": "OP Gear",
+  "description": "Mod Description",
+  "authors": [
+    "Edazpotato"
+  ],
+  "contact": {
+    "homepage": "https://github.com/edazpotato/op-gear-mod#readme",
+    "issues": "https://github.com/edazpotato/op-gear-mod/issues",
+    "sources": "https://github.com/edazpotato/op-gear-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/op_gear/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "codes.edaz.op_gear.OPGear"
+      }
+    ]
+  },
+  "mixins": [
+    "op_gear.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.6.3+kotlin.1.5.21",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}

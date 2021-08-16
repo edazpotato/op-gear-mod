@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "codes.edaz.op_gear.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": []
+}
