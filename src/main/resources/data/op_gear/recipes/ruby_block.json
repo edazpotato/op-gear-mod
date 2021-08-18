@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "op_gear:ruby"
+        }
+    },
+    "result": {
+        "item": "op_gear:ruby_block",
+        "count": 1
+    }
+}

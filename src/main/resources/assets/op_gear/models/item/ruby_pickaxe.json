@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "op_gear:items/ruby_pickaxe"
+  }
+}

@@ -1,3 +1,6 @@
 {
-  "item.op_gear.ruby": "Ruby"
+  "itemGroup.op_gear.general": "OP Gear",
+  "item.op_gear.ruby": "Ruby",
+  "item.op_gear.ruby_pickaxe": "Ruby Pickaxe",
+  "block.op_gear.ruby_block": "Ruby Block"
 }

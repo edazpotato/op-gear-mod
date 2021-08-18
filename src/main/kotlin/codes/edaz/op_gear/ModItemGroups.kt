@@ -8,5 +8,5 @@ import net.minecraft.util.Identifier
 object ModItemGroups {
     val GENERAL = FabricItemGroupBuilder.build(
         Identifier(OPGear.MOD_ID, "general")
-    ) { ItemStack(ModItems.Constants.RUBY) }
+    ) { ItemStack(ModItems.RUBY) }
 }
