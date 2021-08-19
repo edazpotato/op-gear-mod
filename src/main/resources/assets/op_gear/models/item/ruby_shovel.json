@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "op_gear:items/ruby_pickaxe"
+    "layer0": "op_gear:items/ruby_shovel"
   }
 }

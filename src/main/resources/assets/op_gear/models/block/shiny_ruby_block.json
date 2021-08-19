@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "op_gear:blocks/shiny_ruby_block"
+  }
+}

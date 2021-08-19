@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "op_gear:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "op_gear:shiny_ruby_block",
+    "count": 1
+  }
+}

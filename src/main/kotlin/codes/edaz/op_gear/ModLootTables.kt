@@ -25,7 +25,7 @@ object ModLootTables {
         LootTableLoadingCallback.EVENT.register(LootTableLoadingCallback { resourceManager, lootManager, id, table, setter ->
             if (REDSTONE_ORE_LOOT_TABLE_ID.equals(id) or DEEPSLATE_REDSTONE_ORE_LOOT_TABLE_ID.equals(id)) {
                val poolBuilder = FabricLootPoolBuilder.builder()
-                   .rolls(ConstantLootNumberProvider.create(1.0F))
+                   .rolls(ConstantLootNumberProvider.create(0.1F))
 //                   .with(LootTableEntry.builder(RESTONE_ORE_INJECTABLE_LOOT_TABLE_ID))
                    .withEntry(ItemEntry.builder(ModItems.RUBY).build())
                    .withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(0f, 1f)).build())

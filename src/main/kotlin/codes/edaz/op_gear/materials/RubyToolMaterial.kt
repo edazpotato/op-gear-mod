@@ -5,9 +5,9 @@ import net.minecraft.item.ToolMaterial
 import net.minecraft.recipe.Ingredient
 
 object RubyToolMaterial : ToolMaterial {
-    private const val durability = 500
-    private const val miningSpeedMultiplier = 5.0f
-    private const val attackDamage = 3.0f
+    private const val durability = 180
+    private const val miningSpeedMultiplier = 14.8f
+    private const val attackDamage = 3.5f
     private const val miningLevel = 2
     private const val enchantability = 15
     private val repairIngredient = Ingredient.ofItems(ModItems.RUBY)

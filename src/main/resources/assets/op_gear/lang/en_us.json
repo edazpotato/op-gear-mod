@@ -1,6 +1,14 @@
 {
-  "itemGroup.op_gear.general": "OP Gear",
+  "itemGroup.op_gear.general": "OP Stuff",
+  "itemGroup.op_gear.tools": "OP Tools",
+  "itemGroup.op_gear.armour": "OP Armour",
   "item.op_gear.ruby": "Ruby",
+  "item.tutorial.ruby.tooltip": "Rubies are vaery rare but have been known to be found deep underground, encased inside deposits of red ore.",
+  "item.op_gear.ruby_sword": "Ruby Sword",
+  "item.op_gear.ruby_axe": "Ruby Axe",
   "item.op_gear.ruby_pickaxe": "Ruby Pickaxe",
-  "block.op_gear.ruby_block": "Ruby Block"
+  "item.op_gear.ruby_shovel": "Ruby Shovel",
+  "item.op_gear.ruby_hoe": "Ruby Hoe",
+  "block.op_gear.ruby_block": "Ruby Block",
+  "block.op_gear.shiny_ruby_block": "Glowing Ruby Block"
 }

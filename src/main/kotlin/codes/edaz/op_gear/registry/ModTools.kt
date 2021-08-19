@@ -16,9 +16,18 @@ class CustomAxeItem(material: ToolMaterial?, attackDamage: Float, attackSpeed: F
     AxeItem(material, attackDamage, attackSpeed, settings)
 
 object ModTools {
-    val RUBY_PICKAXE: ToolItem = CustomPickaxeItem(RubyToolMaterial, 1, -2.8f, Item.Settings().group(ModItemGroups.GENERAL))
+    val RUBY_SWORD: ToolItem = SwordItem(RubyToolMaterial, 6, -1.8f, Item.Settings().group(ModItemGroups.TOOLS).fireproof())
+    val RUBY_AXE: ToolItem = CustomAxeItem(RubyToolMaterial, 10f, -3.2f, Item.Settings().group(ModItemGroups.TOOLS).fireproof())
+    val RUBY_PICKAXE: ToolItem = CustomPickaxeItem(RubyToolMaterial, 4, -2.8f, Item.Settings().group(ModItemGroups.TOOLS).fireproof())
+    val RUBY_SHOVEL: ToolItem = ShovelItem(RubyToolMaterial, 4.2f, -2.8f, Item.Settings().group(ModItemGroups.TOOLS).fireproof())
+    val RUBY_HOE: ToolItem = CustomHoeItem(RubyToolMaterial, 5, -2.8f, Item.Settings().group(ModItemGroups.TOOLS).fireproof())
+
 
     fun registerTools() {
+        Registry.register(Registry.ITEM, Identifier(OPGear.MOD_ID, "ruby_sword"), RUBY_SWORD)
+        Registry.register(Registry.ITEM, Identifier(OPGear.MOD_ID, "ruby_axe"), RUBY_AXE)
         Registry.register(Registry.ITEM, Identifier(OPGear.MOD_ID, "ruby_pickaxe"), RUBY_PICKAXE)
+        Registry.register(Registry.ITEM, Identifier(OPGear.MOD_ID, "ruby_shovel"), RUBY_SHOVEL)
+        Registry.register(Registry.ITEM, Identifier(OPGear.MOD_ID, "ruby_hoe"), RUBY_HOE)
     }
 }
