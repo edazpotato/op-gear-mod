@@ -3,6 +3,7 @@ package codes.edaz.op_gear.registry
 import codes.edaz.op_gear.ModItemGroups
 import codes.edaz.op_gear.OPGear
 import codes.edaz.op_gear.materials.RubyToolMaterial
+import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags
 import net.minecraft.item.*
 import net.minecraft.util.Identifier
 import net.minecraft.util.registry.Registry
