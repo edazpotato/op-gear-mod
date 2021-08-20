@@ -21,7 +21,7 @@ class RubyItem(settings: Settings) : Item(settings) {
         tooltip: MutableList<Text?>,
         tooltipContext: TooltipContext?
     ) {
-        tooltip.add(TranslatableText("item.tutorial.ruby.tooltip").formatted(Formatting.RED, Formatting.ITALIC))
+        tooltip.add(TranslatableText("item.op_gear.ruby.tooltip").formatted(Formatting.RED, Formatting.ITALIC))
     }
 }
 

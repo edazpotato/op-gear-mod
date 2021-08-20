@@ -9,8 +9,9 @@ object RubyToolMaterial : ToolMaterial {
     private const val miningSpeedMultiplier = 14.8f
     private const val attackDamage = 3.5f
     private const val miningLevel = 2
-    private const val enchantability = 15
+    private const val enchantability = 7
     private val repairIngredient = Ingredient.ofItems(ModItems.RUBY)
+
 
     override fun getDurability(): Int {
         return durability

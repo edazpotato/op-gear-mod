@@ -3,10 +3,11 @@ package codes.edaz.op_gear.registry
 import codes.edaz.op_gear.ModItemGroups
 import codes.edaz.op_gear.OPGear
 import codes.edaz.op_gear.materials.RubyToolMaterial
-import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.minecraft.item.*
 import net.minecraft.util.Identifier
 import net.minecraft.util.registry.Registry
+
 
 // PickaxeItem, HoeItem and AxeItem have protected constructors for some reason, so I need to make these wrapper classes.
 class CustomPickaxeItem(material: ToolMaterial?, attackDamage: Int, attackSpeed: Float, settings: Settings?) :
@@ -22,7 +23,6 @@ object ModTools {
     val RUBY_PICKAXE: ToolItem = CustomPickaxeItem(RubyToolMaterial, 4, -2.8f, Item.Settings().group(ModItemGroups.TOOLS).fireproof())
     val RUBY_SHOVEL: ToolItem = ShovelItem(RubyToolMaterial, 4.2f, -2.8f, Item.Settings().group(ModItemGroups.TOOLS).fireproof())
     val RUBY_HOE: ToolItem = CustomHoeItem(RubyToolMaterial, 5, -2.8f, Item.Settings().group(ModItemGroups.TOOLS).fireproof())
-
 
     fun registerTools() {
         Registry.register(Registry.ITEM, Identifier(OPGear.MOD_ID, "ruby_sword"), RUBY_SWORD)

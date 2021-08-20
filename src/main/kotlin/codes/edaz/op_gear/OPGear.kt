@@ -1,4 +1,5 @@
 package codes.edaz.op_gear
+import codes.edaz.op_gear.registry.ModArmour
 import codes.edaz.op_gear.registry.ModBlocks
 import codes.edaz.op_gear.registry.ModItems
 import codes.edaz.op_gear.registry.ModTools
@@ -11,6 +12,7 @@ object OPGear: ModInitializer {
     override fun onInitialize() {
         ModItems.registerItems()
         ModTools.registerTools()
+        ModArmour.registerArmour()
         ModBlocks.registerBlocks()
         ModLootTables.modifyVanillaLootTables()
 
